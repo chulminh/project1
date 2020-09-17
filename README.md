@@ -1,6 +1,3 @@
-testing
-
-
 Welcome to Glitch
 =================
 
