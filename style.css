@@ -5,9 +5,20 @@ body {
   margin: 2em;
 }
 
-.container h1, h2, h3, h4, p, ul, li, div {
+.container h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+div {
   border: 1px red solid;
   padding: 15px;
+}
+
+.container {
+  margin: .5em .25em;
 }
 
 h1 {
@@ -21,3 +32,14 @@ p {
   color: black;
 }
 
+/*  ===================== 
+    LAYOUT
+    ===================== */
+
+/*  ------ HEADER ------ */
+
+.p-info {
+  background-color: black;
+  margin-top: ;
+
+}
