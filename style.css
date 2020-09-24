@@ -61,7 +61,7 @@ li {
 
 h4 {
   padding: 5px;
-  margin:0;
+  margin: 0;
   margin-left: 10px;
 }
 
@@ -98,6 +98,13 @@ p {
   position: relative;
   top: 200px;
   left: 30px;
+}
+
+.portrait {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-image: url(images)
 }
 
 /* ------ EMPLOYMENT ------ */
