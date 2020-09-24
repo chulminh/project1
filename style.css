@@ -101,10 +101,9 @@ p {
 }
 
 .portrait {
-  position: relative;
   width: 500px;
   height: 500px;
-  background-image: url("images/portrait.jpg");
+  background-image: url(./images/portrait.jpg)
 }
 
 /* ------ EMPLOYMENT ------ */
