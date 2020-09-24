@@ -103,7 +103,7 @@ p {
 .portrait {
   width: 500px;
   height: 500px;
-  background-image: url(./images/portrait.jpg)
+  background-image: url(/portrait.jpg)
 }
 
 /* ------ EMPLOYMENT ------ */
