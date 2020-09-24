@@ -101,9 +101,12 @@ p {
 }
 
 .portrait {
-  width: 500px;
-  height: 500px;
-  background-image: url(/portrait.jpg)
+  height: 300px;
+  position: relative;
+  width: 300px;
+  left: 400px;
+  bottom: 30px;
+  border-radius: 150px;
 }
 
 /* ------ EMPLOYMENT ------ */
