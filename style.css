@@ -3,7 +3,7 @@
 body {
   font-family: "Source Sans Pro", arial, sans-serif;
   margin: 2em;
-  background-color: #f7edba;
+  background-color: #fdf6dd;
 }
 
 .container {
@@ -12,30 +12,31 @@ body {
   color: #000000;
   position: relative;
   width: 800px;
-
 }
 
-div {
-  padding: 0;
-  margin: 0;
+.container div {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
 }
 
 h1 {
-  padding: 10px 0;
-  margin: 0;
   font-size: 40px;
+  margin: 0;
+  padding: 10px 0;
 }
 
 h2 {
-  padding: 10px;
   font-size: 36px;
   margin: 0;
+  padding: 0 10px;
 }
 
 h3 {
+  font-size: 30px;
   margin: 0;
   padding: 10px;
-  font-size: 30px;
 }
 
 ul {
@@ -48,15 +49,15 @@ li {
 }
 
 h4 {
-  padding: 5px;
   margin: 0;
+  padding: 5px;
 }
 
 p {
+  color: black;
+  font-size: 14px;
   margin: 2px;
   padding: 5px;
-  font-size: 14px;
-  color: black;
 }
 
 /*  ===================== 
@@ -98,13 +99,25 @@ p {
 }
 
 /* ------ EMPLOYMENT ------ */
-.employment h2{
+.employment {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
 }
 
 
 /* ------ EDUCATION ------ */
+.education {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+}
 
+/* ------ ADD-EXP ------ */
 
+/* ------ SKILLS ------ */
 /* =========================
     MISC
    ========================= */
