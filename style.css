@@ -14,7 +14,6 @@ p,
 ul,
 li,
 div {
-  border: 1px red solid;
 }
 
 .container {
@@ -90,14 +89,15 @@ p {
   width: 250px;
   position: relative;
   top: 200px;
-  left: 30px;
+  left: 85px;
 }
 
 .p-info p {
   width: 240px;
   position: relative;
   top: 200px;
-  left: 30px;
+  left: 85px;
+  padding:0;
 }
 
 .portrait {
@@ -105,7 +105,7 @@ p {
   position: relative;
   width: 300px;
   left: 400px;
-  bottom: 30px;
+  bottom: 20px;
   border-radius: 150px;
 }
 
