@@ -14,6 +14,7 @@ p,
 ul,
 li,
 div {
+  border: 1px red solid;
 }
 
 .container {
@@ -22,7 +23,6 @@ div {
   color: #000000;
   position: relative;
   width: 800px;
-  background-color: #fff;
 
 }
 
@@ -32,7 +32,7 @@ div {
 }
 
 h1 {
-  padding: 10px;
+  padding: 10px 0;
   margin: 0;
   font-size: 36px;
 }
@@ -78,13 +78,14 @@ p {
 
 .p-info {
   position: relative;
-  height: 500px;
+  height: 400px;
+  background-color: #fff;
 }
 
 .p-info h1 {
   margin: auto 0;
-  width: 250px;
   position: relative;
+  width: 225px;
   top: 200px;
   left: 85px;
 }
@@ -95,14 +96,15 @@ p {
   top: 200px;
   left: 85px;
   padding: 0;
+  text-align: left;
 }
 
 .portrait {
   height: 300px;
   position: relative;
   width: 300px;
-  left: 400px;
-  bottom: 20px;
+  left: 425px;
+  bottom: 55px;
   border-radius: 150px;
 }
 
@@ -114,12 +116,5 @@ p {
 
 
 /* =========================
-    MISC/DECORATIONS
+    MISC
    ========================= */
-
-/* ------ PIC FRAME ------ */
-.portrait {
-  display: block;
-  border: 
-}
-
