@@ -6,17 +6,6 @@ body {
   background-color: #f7edba;
 }
 
-.container h1,
-h2,
-h3,
-h4,
-p,
-ul,
-li,
-div {
-  border: 1px red solid;
-}
-
 .container {
   margin: 0 auto;
   padding: 0;
@@ -79,7 +68,6 @@ p {
 .p-info {
   position: relative;
   height: 400px;
-  background-color: #fff;
 }
 
 .p-info h1 {
@@ -110,7 +98,8 @@ p {
 }
 
 /* ------ EMPLOYMENT ------ */
-
+.employment h2{
+}
 
 
 /* ------ EDUCATION ------ */
