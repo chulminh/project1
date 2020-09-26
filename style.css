@@ -112,7 +112,8 @@ li p {
   width: 300px;
   left: 370px;
   bottom: 55px;
-  border-radius: 150px;
+  border-radius: 175px;
+  border: 15px #fff solid;
 }
 
 /* ------ EMPLOYMENT ------ */
