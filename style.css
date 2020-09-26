@@ -1,19 +1,17 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: "Source Sans Pro", arial, sans-serif;
-  margin: 2em;
-  background-color: #fdf6dd;
-}
-
 /* ====================
     GLOBAL STUFF
    ====================*/
 
+body {
+  background-color: #fdf6dd;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  margin: 2em;
+}
+
 .container {
+  color: #000000;
   margin: 0 auto;
   padding: 0;
-  color: #000000;
   position: relative;
   width: 800px;
 }
@@ -21,8 +19,8 @@ body {
 .container div {
   background-color: #fff;
   border-radius: 15px;
-  padding: 20px;
   margin: 15px;
+  padding: 20px;
 }
 
 h1 {
@@ -48,15 +46,9 @@ ul {
   padding: 0;
 }
 
-li {
-  padding: 0;
-  margin:
-}
-
 h4 {
   margin: 0;
   padding: 5px;
-  margin-left: 15px;
 }
 
 p {
@@ -67,12 +59,8 @@ p {
   margin-left: 20px;
 }
 
-li h4 {
-  margin: 0;
-}
-
 li p {
-  margin: 5px;
+  margin: 0 0 0 5px;
 }
 
 
@@ -83,37 +71,37 @@ li p {
 /*  ------ HEADER ------ */
 
 .p-info {
-  position: relative;
   height: 400px;
+  position: relative;
 }
 
 .p-info h1 {
+  left: 60px;
   margin: auto 0;
   position: relative;
-  width: 225px;
   top: 220px;
-  left: 60px;
+  width: 225px;
 }
 
 .p-info p {
-  width: 225px;
-  position: relative;
-  top: 220px;
   left: 60px;
-  padding: 0;
-  text-align: left;
   margin-left: 15px;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  top: 220px;
+  width: 225px;
   z-index: 1;
 }
 
 .portrait {
+  border: 15px #fff solid;
+  border-radius: 175px;
+  bottom: 55px;
   height: 300px;
+  left: 370px;
   position: relative;
   width: 300px;
-  left: 370px;
-  bottom: 55px;
-  border-radius: 175px;
-  border: 15px #fff solid;
 }
 
 /* ------ EMPLOYMENT ------ */
