@@ -134,7 +134,6 @@ li p {
 /* ------ ADD-EXP ------ */
 
 .add-exp {
-  box-sizing: border-box;
   float: left;
   height: 400px;
   position: relative;
@@ -151,7 +150,6 @@ li p {
 /* ------ SKILLS ------ */
 
 .skills {
-  box-sizing: border-box;
   float: left;
   height: 400px;
   position: relative;
