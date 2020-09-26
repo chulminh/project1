@@ -140,20 +140,28 @@ li p {
 /* ------ ADD-EXP ------ */
 
 .add-exp {
+  box-sizing: border-box;
+  float: left;
+  height: 400px;
   position: relative;
-  width: 340px;
+  width: 46%;
+
 }
 
 .add-exp h3 {
   position: relative;
   z-index: 1;
+
 }
 
 /* ------ SKILLS ------ */
 
 .skills {
+  box-sizing: border-box;
+  float: left;
+  height: 400px;
   position: relative;
-  width: 340px;
+  width: 46%;
 }
 
 .skills h3 {
@@ -184,7 +192,7 @@ li p {
 }
 
 .employment .color {
-  background-color: red;
+  background-color: #ff7a7a;
   border-radius: 15px 15px 0 0;
   height: 90px;
   margin: 0;
@@ -194,7 +202,7 @@ li p {
 }
 
 .education .color {
-  background-color: red;
+  background-color: #b1f59e;
   border-radius: 15px 15px 0 0;
   height: 90px;
   margin: 0;
@@ -204,7 +212,7 @@ li p {
 }
 
 .add-exp .color {
-  background-color: red;
+  background-color: #ffa77a;
   border-radius: 15px 15px 0 0;
   height: 80px;
   margin: 0;
@@ -214,7 +222,7 @@ li p {
 }
 
 .skills .color {
-  background-color: red;
+  background-color: #ffe285;
   border-radius: 15px 15px 0 0;
   height: 80px;
   margin: 0;
