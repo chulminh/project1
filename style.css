@@ -33,13 +33,13 @@ h1 {
 
 h2 {
   font-size: 36px;
-  margin: 0;
-  padding: 0 10px;
+  margin: 0 0 10px 0;
+  padding: 10px;
 }
 
 h3 {
   font-size: 30px;
-  margin: 0;
+  margin: 0 0 10px 0;
   padding: 10px;
 }
 
@@ -117,6 +117,14 @@ li p {
 
 /* ------ EMPLOYMENT ------ */
 
+.employment {
+  position: relative;
+}
+
+.employment h2 {
+  position: relative;
+  z-index: 1;
+}
 
 /* ------ EDUCATION ------ */
 
@@ -126,16 +134,31 @@ li p {
 /* =========================
     MISC
    ========================= */
+
+
+/* ------ COLOR DECO ------- */
 .p-info .color {
-  background-color: blue;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  background-color: #5ca5ff;
+  border-radius: 0 0 15px 15px;
+  bottom: 0px;
   height: 135px;
   left: 0px;
-  bottom:0px;
-  border-radius: 0px 0px 15px 15px;
-  z-index:0;
-  background-color: #5ca5ff;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.employment .color {
+  background-color: red;
+  border-radius: 15px 15px 0 0;
+  height: 90px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
 }
