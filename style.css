@@ -128,37 +128,96 @@ li p {
 
 /* ------ EDUCATION ------ */
 
+.education {
+  position: relative;
+}
+
+.education h2 {
+  position: relative;
+  z-index: 1;
+}
+
 /* ------ ADD-EXP ------ */
 
+.add-exp {
+  position: relative;
+  width: 340px;
+}
+
+.add-exp h3 {
+  position: relative;
+  z-index: 1;
+}
+
 /* ------ SKILLS ------ */
+
+.skills {
+  position: relative;
+  width: 340px;
+}
+
+.skills h3 {
+  position: relative;
+  z-index: 1;
+}
 /* =========================
     MISC
    ========================= */
 
 
 /* ------ COLOR DECO ------- */
+.color {
+  left: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
 .p-info .color {
   background-color: #5ca5ff;
   border-radius: 0 0 15px 15px;
   bottom: 0px;
   height: 135px;
-  left: 0px;
   margin: 0;
   padding: 0;
-  position: absolute;
   width: 100%;
-  z-index: 0;
 }
 
 .employment .color {
   background-color: red;
   border-radius: 15px 15px 0 0;
   height: 90px;
-  left: 0px;
   margin: 0;
   padding: 0;
-  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.education .color {
+  background-color: red;
+  border-radius: 15px 15px 0 0;
+  height: 90px;
+  margin: 0;
+  padding: 0;
   top: 0px;
   width: 100%;
-  z-index: 0;
+}
+
+.add-exp .color {
+  background-color: red;
+  border-radius: 15px 15px 0 0;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  width: 100%;
+}
+
+.skills .color {
+  background-color: red;
+  border-radius: 15px 15px 0 0;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  width: 100%;
 }
